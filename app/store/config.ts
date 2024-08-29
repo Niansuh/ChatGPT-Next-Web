@@ -38,7 +38,7 @@ export const DEFAULT_CONFIG = {
   theme: Theme.Auto as Theme,
   tightBorder: !!config?.isApp,
   sendPreviewBubble: true,
-  enableAutoGenerateTitle: true,
+  enableAutoGenerateTitle: false,
   sidebarWidth: DEFAULT_SIDEBAR_WIDTH,
 
   disablePromptHint: false,
@@ -164,7 +164,7 @@ export const useAppConfig = createPersistStore(
       }
 
       if (version < 3.7) {
-        state.enableAutoGenerateTitle = true;
+        state.enableAutoGenerateTitle = false;
       }
 
       if (version < 3.8) {
