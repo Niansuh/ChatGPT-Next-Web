@@ -173,7 +173,7 @@ export function SideBarHeader(props: {
       <div className={styles["sidebar-header"]} data-tauri-drag-region>
         <div className={styles["sidebar-title-container"]}>
           <div className={styles["sidebar-title"]} data-tauri-drag-region>
-            {title}
+            <a href="https://gpt-chatbot.ru/" target="_blank">GPT-ChatBot.ru</a>
           </div>
           <div className={styles["sidebar-sub-title"]}>{subTitle}</div>
         </div>
