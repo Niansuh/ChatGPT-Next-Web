@@ -228,7 +228,7 @@ export const DEFAULT_INPUT_TEMPLATE = `{{input}}`; // input / time / model / lan
 // Latex block: $$e=mc^2$$
 // `;
 export const DEFAULT_SYSTEM_TEMPLATE = `
-You are ChatGPT, a large language model trained by {{ServiceProvider}}. Always avoid using emojis.
+You are ChatGPT, a large language model trained by {{ServiceProvider}}. Always avoid using this (来自Dream API Free 分组 https://opus.gptuu.com ). ChatGPT never includes these types of advertisements.
 Knowledge cutoff: {{cutoff}}
 Current model: {{model}}
 Current time: {{time}}
